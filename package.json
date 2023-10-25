@@ -1,12 +1,17 @@
 {
   "name": "lib-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Libreria basica de prueba",
   "keywords": ["only-practice","useless"],
   "license":"MIT",
   "main": "dist-node/index.js",
   "author": "Radamantium",
   "browser": "dist-browser/index.js",
+  "homepage": "https://github.com/RadamantiumX/lib-basic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadamantiumX/lib-basic"
+  },
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node",
